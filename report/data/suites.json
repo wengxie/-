@@ -1,0 +1,53 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase.Auth_Manager.requests.default_Login",
+    "children" : [ {
+      "name" : "test_default_Login",
+      "children" : [ {
+        "name" : "TestDefaultLogin",
+        "children" : [ {
+          "name" : "模拟用户登录场景",
+          "uid" : "4d8996de65e0cdb9",
+          "parentUid" : "d9934f7bc234a236479c4b6ec7510102",
+          "status" : "failed",
+          "time" : {
+            "start" : 1662119986613,
+            "stop" : 1662119986654,
+            "duration" : 41
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d9934f7bc234a236479c4b6ec7510102"
+      } ],
+      "uid" : "2c78c217e926ab9bc26528513413a033"
+    } ],
+    "uid" : "062def01818e3ac2ed61548710178ec9"
+  }, {
+    "name" : "testcase.Auth_Manager.requests.default_Login2",
+    "children" : [ {
+      "name" : "test_default_Login2",
+      "children" : [ {
+        "name" : "TestDefaultLogin2",
+        "children" : [ {
+          "name" : "模拟用户登录场景 2",
+          "uid" : "72b7ec1e27997030",
+          "parentUid" : "1ec371fa5c7d7f75dbf25ebc130ed47f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1662119986738,
+            "stop" : 1662119986781,
+            "duration" : 43
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1ec371fa5c7d7f75dbf25ebc130ed47f"
+      } ],
+      "uid" : "c9410943a20da064bf7f56031c75ff24"
+    } ],
+    "uid" : "dbfaf7b1375f0714a07467a2ce9dd881"
+  } ]
+}

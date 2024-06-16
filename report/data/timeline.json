@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "TestDeskV2-043",
+    "children" : [ {
+      "name" : "59400-MainThread",
+      "children" : [ {
+        "name" : "模拟用户登录场景 2",
+        "uid" : "72b7ec1e27997030",
+        "parentUid" : "7427106fed4735d2bf9c5aae8ebb4dea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662119986738,
+          "stop" : 1662119986781,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "模拟用户登录场景",
+        "uid" : "4d8996de65e0cdb9",
+        "parentUid" : "7427106fed4735d2bf9c5aae8ebb4dea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662119986613,
+          "stop" : 1662119986654,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7427106fed4735d2bf9c5aae8ebb4dea"
+    } ],
+    "uid" : "1c7bab84a51bae3cf9b0ad03554ed386"
+  } ]
+}

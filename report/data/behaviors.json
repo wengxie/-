@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Auth_Manager",
+    "children" : [ {
+      "name" : "default_Login",
+      "children" : [ {
+        "name" : "模拟用户登录场景",
+        "uid" : "4d8996de65e0cdb9",
+        "parentUid" : "b3ec1c1a6b52cae0a1ac4b191216e209",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662119986613,
+          "stop" : 1662119986654,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b3ec1c1a6b52cae0a1ac4b191216e209"
+    }, {
+      "name" : "default_Login2",
+      "children" : [ {
+        "name" : "模拟用户登录场景 2",
+        "uid" : "72b7ec1e27997030",
+        "parentUid" : "5581c06fd28938786c1b6a795fafee78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662119986738,
+          "stop" : 1662119986781,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5581c06fd28938786c1b6a795fafee78"
+    } ],
+    "uid" : "07277442d977dbbd4ec317bb2ab56705"
+  } ]
+}

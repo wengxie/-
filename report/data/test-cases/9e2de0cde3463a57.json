@@ -1,0 +1,1328 @@
+{
+  "uid" : "9e2de0cde3463a57",
+  "name" : "模拟用户登录场景",
+  "fullName" : "testcase.Auth_Manager.requests.default_Login.test_default_Login.TestDefaultLogin#test_admin_login",
+  "historyId" : "5a97fc81b08b8cc8ca393e0fcfd05c78",
+  "time" : {
+    "start" : 1661587319069,
+    "stop" : 1661587319098,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1661587319063,
+      "stop" : 1661587319063,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1661587318947,
+      "stop" : 1661587319063,
+      "duration" : 116
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "error message",
+      "time" : {
+        "start" : 1661587319069,
+        "stop" : 1661587319069,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92f438f01e4a9ea6",
+        "name" : "error : {'eq': ['STATUS', 200]} 中 实际值: 401; 期望值: 200",
+        "source" : "92f438f01e4a9ea6.attach",
+        "type" : "text/plain",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "interface_1",
+      "time" : {
+        "start" : 1661587319069,
+        "stop" : 1661587319076,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "测试用例描述 : 模拟admin用户登录",
+        "time" : {
+          "start" : 1661587319070,
+          "stop" : 1661587319070,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "124de21cae1fc265",
+          "name" : "Description",
+          "source" : "124de21cae1fc265.attach",
+          "type" : "text/plain",
+          "size" : 11
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "baseUrl",
+        "time" : {
+          "start" : 1661587319070,
+          "stop" : 1661587319071,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "19a07bfe64641534",
+          "name" : "url : http://10.4.117.56:80/manager/auth/defaultlogin",
+          "source" : "19a07bfe64641534.attach",
+          "type" : "text/plain",
+          "size" : 7
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "method",
+        "time" : {
+          "start" : 1661587319071,
+          "stop" : 1661587319071,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6a4f4706906bcfe3",
+          "name" : "method : post",
+          "source" : "6a4f4706906bcfe3.attach",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "headers",
+        "time" : {
+          "start" : 1661587319071,
+          "stop" : 1661587319074,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d411f62be7938893",
+          "name" : "Accept : application/json, text/plain, */*",
+          "source" : "d411f62be7938893.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "7dc68f8e07a9c99e",
+          "name" : "Accept-Encoding : gzip, deflate",
+          "source" : "7dc68f8e07a9c99e.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "d09308ccd380dddc",
+          "name" : "Accept-Language : zh-CN,zh;q=0.9",
+          "source" : "d09308ccd380dddc.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "4d2d2c186d4e69df",
+          "name" : "Connection : keep-alive",
+          "source" : "4d2d2c186d4e69df.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "dfbdf3af332dca5b",
+          "name" : "Content-Type : application/json;charset=UTF-8",
+          "source" : "dfbdf3af332dca5b.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "dff0c745ab8c8351",
+          "name" : "user : f5a08cb056c539d76f373bbc94458e39",
+          "source" : "dff0c745ab8c8351.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "7f2feb244e0e8e72",
+          "name" : "token : fde85f5a2644f97234a83ad5f5246acc676efee3a2d92e853a3454aee6f3a0e3",
+          "source" : "7f2feb244e0e8e72.attach",
+          "type" : "text/plain",
+          "size" : 7
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 7,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "body",
+        "time" : {
+          "start" : 1661587319074,
+          "stop" : 1661587319074,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "86f99dc4ee2bbdab",
+          "name" : "body : {'loginName': 'admin', 'password': 'aaccdcfaijfjmngdfrcijfmwnjgrcczdfjwimnafjgraccdcfaijfjmngdfrcwijfmwnjgrcczdfjwimnafjgraccdcfaij44mnfjgrdwf2c84i8wj448fm2nj488gr448zc2cd88DfjwIiDmMnIMDNM8IfNMjrNgTTTUTUUIzwN4DU2Nzg='}",
+          "source" : "86f99dc4ee2bbdab.attach",
+          "type" : "text/plain",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "response",
+        "time" : {
+          "start" : 1661587319074,
+          "stop" : 1661587319075,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5d5c0b39bacde5d6",
+          "name" : "status : 200",
+          "source" : "5d5c0b39bacde5d6.attach",
+          "type" : "text/plain",
+          "size" : 6
+        }, {
+          "uid" : "d4b45c64bb752b84",
+          "name" : "res_time : 0.038701 s",
+          "source" : "d4b45c64bb752b84.attach",
+          "type" : "text/plain",
+          "size" : 8
+        }, {
+          "uid" : "d1c6d261eab8b66b",
+          "name" : "res_body : {'success': 1, 'userId': 'f5a08cb056c539d76f373bbc94458e39', 'token': 'fde85f5a2644f97234a83ad5f5246acc676efee3a2d92e853a3454aee6f3a0e3', 'jwtToken': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGVybWlzc2lvbiI6eyJJRF9NQUlOUEFHRSI6dHJ1ZSwiSURfU0VBUkNIIjp0cnVlLCJJRF9TRUFSQ0hfQ1JFQVRFIjp0cnVlLCJJRF9TRUFSQ0hfU0FWRSI6dHJ1ZSwiSURfU0VBUkNIX09QRU4iOnRydWUsIklEX1NFQVJDSF9TSEFSRSI6dHJ1ZSwiSURfU0VBUkNIX0RPV05MT0FEIjp0cnVlLCJJRF9SRUxBVElPTlNISVBfR1JBUEgiOnRydWUsIklEX1ZJU1VBTCI6dHJ1ZSwiSURfVklTVUFMX0NSRUFURSI6dHJ1ZSwiSURfVklTVUFMX1NBVkUiOnRydWUsIklEX1ZJU1VBTF9PUEVOIjp0cnVlLCJJRF9WSVNVQUxfU0hBUkUiOnRydWUsIklEX0RBVEVTT1VSQ0UiOnRydWUsIklEX0RBVEFTT1VSQ0VfSU5QVVQiOnRydWUsIklEX0RBVEVTT1VSQ0VfVVBMT0FEIjp0cnVlLCJJRF9EQVRFU09VUkNFX0NPTExFQ1RJT04iOnRydWUsIklEX0RBVEVTT1VSQ0VfQUdFTlRfTUFOQUdFUiI6dHJ1ZSwiSURfREFURVNPVVJDRV9EQkNPTk5FQ1QiOnRydWUsIklEX0RBVEVTT1VSQ0VfSU5ERVhfTUFOQUdFIjp0cnVlLCJJRF9EQVRFU09VUkNFX09QRU5fTE9HIjp0cnVlLCJJRF9EQVRFU09VUkNFX0RBVEFfU1RSRUFNIjp0cnVlLCJJRF9EQVRFU09VUkNFX0FSQ0hJVkUiOnRydWUsIklEX0RBVEVTT1VSQ0VfQUdFTlRfQVVESVQiOnRydWUsIklEX0FMRVJUIjp0cnVlLCJJRF9BTEVSVF9SRUNPUkQiOnRydWUsIklEX0FMRVJUX1JFQ09SRF9DTEVBUiI6dHJ1ZSwiSURfQUxFUlRfUkVDT1JEX0VYUE9SVCI6dHJ1ZSwiSURfQUxFUlRfU1RSQVRFR1kiOnRydWUsIklEX0FMRVJUX1NUUkFURUdZX0NSRUFURSI6dHJ1ZSwiSURfQUxFUlRfU1RSQVRFR1lfVVBEQVRFIjp0cnVlLCJJRF9BTEVSVF9TVFJBVEVHWV9ERUxFVEUiOnRydWUsIklEX0FMRVJUX1NUUkFURUdZX0xJU1QiOnRydWUsIklEX0RBU0hCT0FSRCI6dHJ1ZSwiSURfREFTSEJPQVJEX0NSRUFURSI6dHJ1ZSwiSURfREFTSEJPQVJEX1NBVkUiOnRydWUsIklEX0RBU0hCT0FSRF9PUEVOIjp0cnVlLCJJRF9EQVNIQk9BUkRfU0hBUkUiOnRydWUsIklEX0RBU0hCT0FSRF9BRERfVklTVUFMIjp0cnVlLCJJRF9EQklPIjp0cnVlLCJJRF9EQklPX0JVU0lORVNTX1BBTk9SQU1BIjp0cnVlLCJJRF9EQklPX1NFUlZJQ0VfQU5BTFlaRVIiOnRydWUsIklEX0RCSU9fQUxFUlRTX0NIRUNLIjp0cnVlLCJJRF9EQklPX0tQSV9BTkFMWVpFUiI6dHJ1ZSwiSURfREJJT19DT05GSUdVUkFUSU9OIjp0cnVlLCJJRF9EQklPX0NPTkZJR1VSQVRJT05fU0VSVklDRSI6dHJ1ZSwiSURfREJJT19DT05GSUdVUkFUSU9OX0VOVElUWSI6dHJ1ZSwiSURfREJJT19DT05GSUdVUkFUSU9OX0FMRVJUIjp0cnVlLCJJRF9NTCI6dHJ1ZSwiSURfTUxfQU5PTUFMWV9ERVRFQ1RJT04iOnRydWUsIklEX01MX0FOT01BTFlfREVURUNUSU9OX0NSRUFURSI6dHJ1ZSwiSURfTUxfQU5PTUFMWV9ERVRFQ1RJT05fVVBEQVRFIjp0cnVlLCJJRF9NTF9BTk9NQUxZX0RFVEVDVElPTl9ERUxFVEUiOnRydWUsIklEX01MX1RJTUVfU0VSSUVTX0ZPUkVDQVNUIjp0cnVlLCJJRF9NTF9USU1FX1NFUklFU19GT1JFQ0FTVF9DUkVBVEUiOnRydWUsIklEX01MX1RJTUVfU0VSSUVTX0ZPUkVDQVNUX1VQREFURSI6dHJ1ZSwiSURfTUxfVElNRV9TRVJJRVNfRk9SRUNBU1RfREVMRVRFIjp0cnVlLCJJRF9NTF9ST09UX0NBVVNFX0FOQUxZU0lTIjp0cnVlLCJJRF9NTF9ST09UX0NBVVNFX0FOQUxZU0lTX0NSRUFURSI6dHJ1ZSwiSURfTUxfUk9PVF9DQVVTRV9BTkFMWVNJU19VUERBVEUiOnRydWUsIklEX01MX1JPT1RfQ0FVU0VfQU5BTFlTSVNfREVMRVRFIjp0cnVlLCJJRF9EQVRBX01BTkFHRVIiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUCI6dHJ1ZSwiSURfREFUQV9NQU5BR0VSX0xPR0dST1VQX0VYUE9SVF9BTEwiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUF9JTVBPUlQiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUF9DUkVBVEUiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUF9VUERBVEUiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUF9ERUxFVEUiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUF9FWFBPUlQiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9UQUdTIjp0cnVlLCJJRF9NT05JVE9SX1BBR0UiOnRydWUsIklEX0lOU1BFQ1RJT04iOnRydWUsIklEX0lOU1BFQ1RJT05fSU5TUEVDVElPTlMiOnRydWUsIklEX0lOU1BFQ1RJT05fSU5TUEVDVElPTlNfQUREIjp0cnVlLCJJRF9JTlNQRUNUSU9OX0lOU1BFQ1RJT05TX0VESVQiOnRydWUsIklEX0lOU1BFQ1RJT05fSU5TUEVDVElPTlNfREVMRVRFIjp0cnVlLCJJRF9JTlNQRUNUSU9OX0lOU1BFQ1RJT05TX0RFTEVURV9TSUdOIjp0cnVlLCJJRF9JTlNQRUNUSU9OX0hJU1RPUlkiOnRydWUsIklEX0lOU1BFQ1RJT05fSElTVE9SWV9FWFBPUlQiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9PQkpFQ1QiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9PQkpFQ1RfRVhQT1JUX0FMTCI6dHJ1ZSwiSURfREFUQV9NQU5BR0VSX09CSkVDVF9JTVBPUlQiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9PQkpFQ1RfUlVMRSI6dHJ1ZSwiSURfREFUQV9NQU5BR0VSX09CSkVDVF9EQVNIQk9BUkQiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9PQkpFQ1RfU0VBUkNIIjp0cnVlLCJJRF9EQVRBX01BTkFHRVJfT0JKRUNUX1ZJU1VBTCI6dHJ1ZSwiSURfREFUQV9NQU5BR0VSX09CSkVDVF9BTEVSVCI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVIiOnRydWUsIklEX1NZU1RFTV9NQU5BR0VSX1BFUk1JU1NJT04iOnRydWUsIklEX1NZU1RFTV9NQU5BR0VSX1BFUk1JU1NJT05fVVNFUiI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfUEVSTUlTU0lPTl9ST0xFIjp0cnVlLCJJRF9TWVNURU1fTUFOQUdFUl9QRVJNSVNTSU9OX01PRFVMRSI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfUEVSTUlTU0lPTl9PUEVOQVBJIjp0cnVlLCJJRF9TWVNURU1fTUFOQUdFUl9BVURJVF9MT0ciOnRydWUsIklEX1NZU1RFTV9NQU5BR0VSX1NZU1RFTSI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU1lTVEVNX0xPR0dJTkciOnRydWUsIklEX1NZU1RFTV9NQU5BR0VSX1NZU1RFTV9TRUNVUklUWSI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU1lTVEVNX09FTSI6dHJ1ZSwiSURfU1lTVEVNX0FVVEhfTUFOQUdFUiI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU1lTVEVNX1dISVRFTElTVCI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU1lTVEVNX1NFQVJDSCI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU0NIRURVTEVfVEFTSyI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU0NIRURVTEVfVEFTS19DUkVBVEUiOnRydWUsIklEX1NZU1RFTV9NQU5BR0VSX1NDSEVEVUxFX1RBU0tfVVBEQVRFIjp0cnVlLCJJRF9TWVNURU1fTUFOQUdFUl9TQ0hFRFVMRV9UQVNLX0RFTEVURSI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU0NIRURVTEVfVEFTS19MSVNUIjp0cnVlLCJJRF9TWVNURU1fTUFOQUdFUl9TWVNURU1fTElDRU5TRSI6dHJ1ZSwiSURfQVNfQklHU0NSRUVOIjp0cnVlLCJJRF9DT1JSRUxBVElPTl9TRUFSQ0giOnRydWV9LCJleHAiOjE2NjE5NDczMTYuMTI5ODk5M30.4qSsFlaS92PEMnY9f66rUf5UT9207sPa6AOPOVeymlE', 'permissionStatus': False}",
+          "source" : "d1c6d261eab8b66b.attach",
+          "type" : "text/plain",
+          "size" : 8
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assertMsg",
+        "time" : {
+          "start" : 1661587319075,
+          "stop" : 1661587319075,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assertInfo",
+        "time" : {
+          "start" : 1661587319075,
+          "stop" : 1661587319076,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f92d4ba6237ce84a",
+          "name" : "verify : {'eq': ['STATUS', 200]}",
+          "source" : "f92d4ba6237ce84a.attach",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 8,
+      "attachmentsCount" : 15,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "interface_2",
+      "time" : {
+        "start" : 1661587319076,
+        "stop" : 1661587319081,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "测试用例描述 : 模拟 URL 参数依赖",
+        "time" : {
+          "start" : 1661587319076,
+          "stop" : 1661587319076,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8e9ac01c2b7b6d88",
+          "name" : "Description",
+          "source" : "8e9ac01c2b7b6d88.attach",
+          "type" : "text/plain",
+          "size" : 11
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "baseUrl",
+        "time" : {
+          "start" : 1661587319076,
+          "stop" : 1661587319076,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "96c91364c86d1b8c",
+          "name" : "url : http://10.4.117.56:80/manager/auth/1",
+          "source" : "96c91364c86d1b8c.attach",
+          "type" : "text/plain",
+          "size" : 7
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "method",
+        "time" : {
+          "start" : 1661587319076,
+          "stop" : 1661587319077,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "dfe9f3ac729dae38",
+          "name" : "method : post",
+          "source" : "dfe9f3ac729dae38.attach",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "headers",
+        "time" : {
+          "start" : 1661587319077,
+          "stop" : 1661587319079,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ca7161226437cf03",
+          "name" : "Accept : application/json, text/plain, */*",
+          "source" : "ca7161226437cf03.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "f716026d61a9c725",
+          "name" : "Accept-Encoding : gzip, deflate",
+          "source" : "f716026d61a9c725.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "d60695e1e5212ddd",
+          "name" : "Accept-Language : zh-CN,zh;q=0.9",
+          "source" : "d60695e1e5212ddd.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "88c1f1bd9736b24a",
+          "name" : "Connection : keep-alive",
+          "source" : "88c1f1bd9736b24a.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "f394fb047890ec51",
+          "name" : "Content-Type : application/json;charset=UTF-8",
+          "source" : "f394fb047890ec51.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "413e92f38b551901",
+          "name" : "user : f5a08cb056c539d76f373bbc94458e39",
+          "source" : "413e92f38b551901.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "9b4911efd35ac46a",
+          "name" : "token : fde85f5a2644f97234a83ad5f5246acc676efee3a2d92e853a3454aee6f3a0e3",
+          "source" : "9b4911efd35ac46a.attach",
+          "type" : "text/plain",
+          "size" : 7
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 7,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "body",
+        "time" : {
+          "start" : 1661587319079,
+          "stop" : 1661587319079,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "af27ffd4ca7dbbf3",
+          "name" : "body : {'loginName': 'f5a08cb056c539d76f373bbc94458e39', 'password': 'aaccdcfaijfjmngdfrcijfmwnjgrcczdfjwimnafjgraccdcfaijfjmngdfrcwijfmwnjgrcczdfjwimnafjgraccdcfaij44mnfjgrdwf2c84i8wj448fm2nj488gr448zc2cd88DfjwIiDmMnIMDNM8IfNMjrNgTTTUTUUIzwN4DU2Nzg='}",
+          "source" : "af27ffd4ca7dbbf3.attach",
+          "type" : "text/plain",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "response",
+        "time" : {
+          "start" : 1661587319079,
+          "stop" : 1661587319080,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a16dc56b59ffcac8",
+          "name" : "status : 404",
+          "source" : "a16dc56b59ffcac8.attach",
+          "type" : "text/plain",
+          "size" : 6
+        }, {
+          "uid" : "9659d8ee369dde76",
+          "name" : "res_time : 0.034599 s",
+          "source" : "9659d8ee369dde76.attach",
+          "type" : "text/plain",
+          "size" : 8
+        }, {
+          "uid" : "6cba72f08a323fc5",
+          "name" : "res_body : <html><title>404: Not Found</title><body>404: Not Found</body></html>",
+          "source" : "6cba72f08a323fc5.attach",
+          "type" : "text/plain",
+          "size" : 8
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assertMsg",
+        "time" : {
+          "start" : 1661587319080,
+          "stop" : 1661587319080,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assertInfo",
+        "time" : {
+          "start" : 1661587319080,
+          "stop" : 1661587319081,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "79311779c3a18318",
+          "name" : "verify : {'uq': ['STATUS', 503]}",
+          "source" : "79311779c3a18318.attach",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 8,
+      "attachmentsCount" : 15,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "interface_3",
+      "time" : {
+        "start" : 1661587319081,
+        "stop" : 1661587319086,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "测试用例描述 : 模拟 2 用户登录",
+        "time" : {
+          "start" : 1661587319081,
+          "stop" : 1661587319081,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "745c2a02eb5ef9ba",
+          "name" : "Description",
+          "source" : "745c2a02eb5ef9ba.attach",
+          "type" : "text/plain",
+          "size" : 11
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "baseUrl",
+        "time" : {
+          "start" : 1661587319081,
+          "stop" : 1661587319081,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "95a607b5ea50fe5f",
+          "name" : "url : http://10.4.117.56:80/manager/auth/defaultlogin",
+          "source" : "95a607b5ea50fe5f.attach",
+          "type" : "text/plain",
+          "size" : 7
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "method",
+        "time" : {
+          "start" : 1661587319081,
+          "stop" : 1661587319081,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d82e3ff18322e6d5",
+          "name" : "method : post",
+          "source" : "d82e3ff18322e6d5.attach",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "headers",
+        "time" : {
+          "start" : 1661587319081,
+          "stop" : 1661587319084,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2e75894d3e23eec8",
+          "name" : "Accept : application/json, text/plain, */*",
+          "source" : "2e75894d3e23eec8.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "c1593e3f7cee6b9c",
+          "name" : "Accept-Encoding : gzip, deflate",
+          "source" : "c1593e3f7cee6b9c.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "b3fda5ae01fcc4ee",
+          "name" : "Accept-Language : zh-CN,zh;q=0.9",
+          "source" : "b3fda5ae01fcc4ee.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "9b9d111272fec322",
+          "name" : "Connection : keep-alive",
+          "source" : "9b9d111272fec322.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "d8487413049b2a0",
+          "name" : "Content-Type : application/json;charset=UTF-8",
+          "source" : "d8487413049b2a0.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "fcc04f17db6a4e1",
+          "name" : "user : f5a08cb056c539d76f373bbc94458e39",
+          "source" : "fcc04f17db6a4e1.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "2e45abb0c15eed25",
+          "name" : "token : fde85f5a2644f97234a83ad5f5246acc676efee3a2d92e853a3454aee6f3a0e3",
+          "source" : "2e45abb0c15eed25.attach",
+          "type" : "text/plain",
+          "size" : 7
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 7,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "sleep",
+        "time" : {
+          "start" : 1661587319084,
+          "stop" : 1661587319084,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "34324294733da8d7",
+          "name" : "sleep : 2",
+          "source" : "34324294733da8d7.attach",
+          "type" : "text/plain",
+          "size" : 5
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "preconfig",
+        "time" : {
+          "start" : 1661587319084,
+          "stop" : 1661587319084,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4e058b7f90457985",
+          "name" : "前置处理 : 调用前置处理add.py模块中add_num(1,2)命令",
+          "source" : "4e058b7f90457985.attach",
+          "type" : "text/plain",
+          "size" : 9
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "body",
+        "time" : {
+          "start" : 1661587319084,
+          "stop" : 1661587319084,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3b7ca85cacd8612c",
+          "name" : "body : {'loginName': 'admin', 'password': 'aaccdcfaijfjmngdfrcijfmwnjgrcczdfjwimnafjgraccdcfaijfjmngdfrcwijfmwnjgrcczdfjwimnafjgraccdcfaij44mnfjgrdwf2c84i8wj448fm2nj488gr448zc2cd88DfjwIiDmMnIMDNM8IfNMjrNgTTTUTUUIzwN4DU2Nzg='}",
+          "source" : "3b7ca85cacd8612c.attach",
+          "type" : "text/plain",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "response",
+        "time" : {
+          "start" : 1661587319084,
+          "stop" : 1661587319085,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d8b8bb77c1386df8",
+          "name" : "status : 200",
+          "source" : "d8b8bb77c1386df8.attach",
+          "type" : "text/plain",
+          "size" : 6
+        }, {
+          "uid" : "fcbd1971b70d4f5c",
+          "name" : "res_time : 0.031538 s",
+          "source" : "fcbd1971b70d4f5c.attach",
+          "type" : "text/plain",
+          "size" : 8
+        }, {
+          "uid" : "14d4e5cb33148043",
+          "name" : "res_body : {'success': 1, 'userId': 'f5a08cb056c539d76f373bbc94458e39', 'token': 'fde85f5a2644f97234a83ad5f5246acc676efee3a2d92e853a3454aee6f3a0e3', 'jwtToken': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGVybWlzc2lvbiI6eyJJRF9NQUlOUEFHRSI6dHJ1ZSwiSURfU0VBUkNIIjp0cnVlLCJJRF9TRUFSQ0hfQ1JFQVRFIjp0cnVlLCJJRF9TRUFSQ0hfU0FWRSI6dHJ1ZSwiSURfU0VBUkNIX09QRU4iOnRydWUsIklEX1NFQVJDSF9TSEFSRSI6dHJ1ZSwiSURfU0VBUkNIX0RPV05MT0FEIjp0cnVlLCJJRF9SRUxBVElPTlNISVBfR1JBUEgiOnRydWUsIklEX1ZJU1VBTCI6dHJ1ZSwiSURfVklTVUFMX0NSRUFURSI6dHJ1ZSwiSURfVklTVUFMX1NBVkUiOnRydWUsIklEX1ZJU1VBTF9PUEVOIjp0cnVlLCJJRF9WSVNVQUxfU0hBUkUiOnRydWUsIklEX0RBVEVTT1VSQ0UiOnRydWUsIklEX0RBVEFTT1VSQ0VfSU5QVVQiOnRydWUsIklEX0RBVEVTT1VSQ0VfVVBMT0FEIjp0cnVlLCJJRF9EQVRFU09VUkNFX0NPTExFQ1RJT04iOnRydWUsIklEX0RBVEVTT1VSQ0VfQUdFTlRfTUFOQUdFUiI6dHJ1ZSwiSURfREFURVNPVVJDRV9EQkNPTk5FQ1QiOnRydWUsIklEX0RBVEVTT1VSQ0VfSU5ERVhfTUFOQUdFIjp0cnVlLCJJRF9EQVRFU09VUkNFX09QRU5fTE9HIjp0cnVlLCJJRF9EQVRFU09VUkNFX0RBVEFfU1RSRUFNIjp0cnVlLCJJRF9EQVRFU09VUkNFX0FSQ0hJVkUiOnRydWUsIklEX0RBVEVTT1VSQ0VfQUdFTlRfQVVESVQiOnRydWUsIklEX0FMRVJUIjp0cnVlLCJJRF9BTEVSVF9SRUNPUkQiOnRydWUsIklEX0FMRVJUX1JFQ09SRF9DTEVBUiI6dHJ1ZSwiSURfQUxFUlRfUkVDT1JEX0VYUE9SVCI6dHJ1ZSwiSURfQUxFUlRfU1RSQVRFR1kiOnRydWUsIklEX0FMRVJUX1NUUkFURUdZX0NSRUFURSI6dHJ1ZSwiSURfQUxFUlRfU1RSQVRFR1lfVVBEQVRFIjp0cnVlLCJJRF9BTEVSVF9TVFJBVEVHWV9ERUxFVEUiOnRydWUsIklEX0FMRVJUX1NUUkFURUdZX0xJU1QiOnRydWUsIklEX0RBU0hCT0FSRCI6dHJ1ZSwiSURfREFTSEJPQVJEX0NSRUFURSI6dHJ1ZSwiSURfREFTSEJPQVJEX1NBVkUiOnRydWUsIklEX0RBU0hCT0FSRF9PUEVOIjp0cnVlLCJJRF9EQVNIQk9BUkRfU0hBUkUiOnRydWUsIklEX0RBU0hCT0FSRF9BRERfVklTVUFMIjp0cnVlLCJJRF9EQklPIjp0cnVlLCJJRF9EQklPX0JVU0lORVNTX1BBTk9SQU1BIjp0cnVlLCJJRF9EQklPX1NFUlZJQ0VfQU5BTFlaRVIiOnRydWUsIklEX0RCSU9fQUxFUlRTX0NIRUNLIjp0cnVlLCJJRF9EQklPX0tQSV9BTkFMWVpFUiI6dHJ1ZSwiSURfREJJT19DT05GSUdVUkFUSU9OIjp0cnVlLCJJRF9EQklPX0NPTkZJR1VSQVRJT05fU0VSVklDRSI6dHJ1ZSwiSURfREJJT19DT05GSUdVUkFUSU9OX0VOVElUWSI6dHJ1ZSwiSURfREJJT19DT05GSUdVUkFUSU9OX0FMRVJUIjp0cnVlLCJJRF9NTCI6dHJ1ZSwiSURfTUxfQU5PTUFMWV9ERVRFQ1RJT04iOnRydWUsIklEX01MX0FOT01BTFlfREVURUNUSU9OX0NSRUFURSI6dHJ1ZSwiSURfTUxfQU5PTUFMWV9ERVRFQ1RJT05fVVBEQVRFIjp0cnVlLCJJRF9NTF9BTk9NQUxZX0RFVEVDVElPTl9ERUxFVEUiOnRydWUsIklEX01MX1RJTUVfU0VSSUVTX0ZPUkVDQVNUIjp0cnVlLCJJRF9NTF9USU1FX1NFUklFU19GT1JFQ0FTVF9DUkVBVEUiOnRydWUsIklEX01MX1RJTUVfU0VSSUVTX0ZPUkVDQVNUX1VQREFURSI6dHJ1ZSwiSURfTUxfVElNRV9TRVJJRVNfRk9SRUNBU1RfREVMRVRFIjp0cnVlLCJJRF9NTF9ST09UX0NBVVNFX0FOQUxZU0lTIjp0cnVlLCJJRF9NTF9ST09UX0NBVVNFX0FOQUxZU0lTX0NSRUFURSI6dHJ1ZSwiSURfTUxfUk9PVF9DQVVTRV9BTkFMWVNJU19VUERBVEUiOnRydWUsIklEX01MX1JPT1RfQ0FVU0VfQU5BTFlTSVNfREVMRVRFIjp0cnVlLCJJRF9EQVRBX01BTkFHRVIiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUCI6dHJ1ZSwiSURfREFUQV9NQU5BR0VSX0xPR0dST1VQX0VYUE9SVF9BTEwiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUF9JTVBPUlQiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUF9DUkVBVEUiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUF9VUERBVEUiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUF9ERUxFVEUiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUF9FWFBPUlQiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9UQUdTIjp0cnVlLCJJRF9NT05JVE9SX1BBR0UiOnRydWUsIklEX0lOU1BFQ1RJT04iOnRydWUsIklEX0lOU1BFQ1RJT05fSU5TUEVDVElPTlMiOnRydWUsIklEX0lOU1BFQ1RJT05fSU5TUEVDVElPTlNfQUREIjp0cnVlLCJJRF9JTlNQRUNUSU9OX0lOU1BFQ1RJT05TX0VESVQiOnRydWUsIklEX0lOU1BFQ1RJT05fSU5TUEVDVElPTlNfREVMRVRFIjp0cnVlLCJJRF9JTlNQRUNUSU9OX0lOU1BFQ1RJT05TX0RFTEVURV9TSUdOIjp0cnVlLCJJRF9JTlNQRUNUSU9OX0hJU1RPUlkiOnRydWUsIklEX0lOU1BFQ1RJT05fSElTVE9SWV9FWFBPUlQiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9PQkpFQ1QiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9PQkpFQ1RfRVhQT1JUX0FMTCI6dHJ1ZSwiSURfREFUQV9NQU5BR0VSX09CSkVDVF9JTVBPUlQiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9PQkpFQ1RfUlVMRSI6dHJ1ZSwiSURfREFUQV9NQU5BR0VSX09CSkVDVF9EQVNIQk9BUkQiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9PQkpFQ1RfU0VBUkNIIjp0cnVlLCJJRF9EQVRBX01BTkFHRVJfT0JKRUNUX1ZJU1VBTCI6dHJ1ZSwiSURfREFUQV9NQU5BR0VSX09CSkVDVF9BTEVSVCI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVIiOnRydWUsIklEX1NZU1RFTV9NQU5BR0VSX1BFUk1JU1NJT04iOnRydWUsIklEX1NZU1RFTV9NQU5BR0VSX1BFUk1JU1NJT05fVVNFUiI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfUEVSTUlTU0lPTl9ST0xFIjp0cnVlLCJJRF9TWVNURU1fTUFOQUdFUl9QRVJNSVNTSU9OX01PRFVMRSI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfUEVSTUlTU0lPTl9PUEVOQVBJIjp0cnVlLCJJRF9TWVNURU1fTUFOQUdFUl9BVURJVF9MT0ciOnRydWUsIklEX1NZU1RFTV9NQU5BR0VSX1NZU1RFTSI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU1lTVEVNX0xPR0dJTkciOnRydWUsIklEX1NZU1RFTV9NQU5BR0VSX1NZU1RFTV9TRUNVUklUWSI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU1lTVEVNX09FTSI6dHJ1ZSwiSURfU1lTVEVNX0FVVEhfTUFOQUdFUiI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU1lTVEVNX1dISVRFTElTVCI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU1lTVEVNX1NFQVJDSCI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU0NIRURVTEVfVEFTSyI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU0NIRURVTEVfVEFTS19DUkVBVEUiOnRydWUsIklEX1NZU1RFTV9NQU5BR0VSX1NDSEVEVUxFX1RBU0tfVVBEQVRFIjp0cnVlLCJJRF9TWVNURU1fTUFOQUdFUl9TQ0hFRFVMRV9UQVNLX0RFTEVURSI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU0NIRURVTEVfVEFTS19MSVNUIjp0cnVlLCJJRF9TWVNURU1fTUFOQUdFUl9TWVNURU1fTElDRU5TRSI6dHJ1ZSwiSURfQVNfQklHU0NSRUVOIjp0cnVlLCJJRF9DT1JSRUxBVElPTl9TRUFSQ0giOnRydWV9LCJleHAiOjE2NjE5NDczMTguMjA1MjE5M30.U6IP4y2tQEKD1JjKwPSQba9I2CKeWqBwniJILBCh3aQ', 'permissionStatus': False}",
+          "source" : "14d4e5cb33148043.attach",
+          "type" : "text/plain",
+          "size" : 8
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "teardown",
+        "time" : {
+          "start" : 1661587319085,
+          "stop" : 1661587319085,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "92189a1cce185160",
+          "name" : "后置处理 : 调用后置处理reduce.py模块中reduce_num(1,2)命令",
+          "source" : "92189a1cce185160.attach",
+          "type" : "text/plain",
+          "size" : 8
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assertMsg",
+        "time" : {
+          "start" : 1661587319085,
+          "stop" : 1661587319085,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assertInfo",
+        "time" : {
+          "start" : 1661587319086,
+          "stop" : 1661587319086,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1c6a0b68d8c9daf0",
+          "name" : "verify : {'uq': ['STATUS', 503]}",
+          "source" : "1c6a0b68d8c9daf0.attach",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 11,
+      "attachmentsCount" : 18,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "interface_4",
+      "time" : {
+        "start" : 1661587319086,
+        "stop" : 1661587319091,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "测试用例描述 : 模拟 3 用户登录",
+        "time" : {
+          "start" : 1661587319086,
+          "stop" : 1661587319086,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f08295a576080ce7",
+          "name" : "Description",
+          "source" : "f08295a576080ce7.attach",
+          "type" : "text/plain",
+          "size" : 11
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "baseUrl",
+        "time" : {
+          "start" : 1661587319086,
+          "stop" : 1661587319086,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "326a416cedf47dff",
+          "name" : "url : http://10.4.117.56:80/manager/auth/defaultlogin",
+          "source" : "326a416cedf47dff.attach",
+          "type" : "text/plain",
+          "size" : 7
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "method",
+        "time" : {
+          "start" : 1661587319086,
+          "stop" : 1661587319087,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a9cf8effbc00004b",
+          "name" : "method : post",
+          "source" : "a9cf8effbc00004b.attach",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "headers",
+        "time" : {
+          "start" : 1661587319087,
+          "stop" : 1661587319089,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d436c85e2f1be804",
+          "name" : "Accept : application/json, text/plain, */*",
+          "source" : "d436c85e2f1be804.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "bbe7677c62385073",
+          "name" : "Accept-Encoding : gzip, deflate",
+          "source" : "bbe7677c62385073.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "27772630bf131167",
+          "name" : "Accept-Language : zh-CN,zh;q=0.9",
+          "source" : "27772630bf131167.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "e74d269d4ec3a53e",
+          "name" : "Connection : keep-alive",
+          "source" : "e74d269d4ec3a53e.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "494c7e6071a812da",
+          "name" : "Content-Type : application/json;charset=UTF-8",
+          "source" : "494c7e6071a812da.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "8ccb6daed9998a0",
+          "name" : "user : f5a08cb056c539d76f373bbc94458e39",
+          "source" : "8ccb6daed9998a0.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "4c75b77ac133b4cd",
+          "name" : "token : fde85f5a2644f97234a83ad5f5246acc676efee3a2d92e853a3454aee6f3a0e3",
+          "source" : "4c75b77ac133b4cd.attach",
+          "type" : "text/plain",
+          "size" : 7
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 7,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "body",
+        "time" : {
+          "start" : 1661587319089,
+          "stop" : 1661587319090,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3579476d05d3df6d",
+          "name" : "body : {'loginName': 'AAAA790_743bbbbbZZZZ在这种', 'password': 'aaccdcfaijfjmngdfrcijfmwnjgrcczdfjwimnafjgraccdcfaijfjmngdfrcwijfmwnjgrcczdfjwimnafjgraccdcfaij44mnfjgrdwf2c84i8wj448fm2nj488gr448zc2cd88DfjwIiDmMnIMDNM8IfNMjrNgTTTUTUUIzwN4DU2Nzg='}",
+          "source" : "3579476d05d3df6d.attach",
+          "type" : "text/plain",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "response",
+        "time" : {
+          "start" : 1661587319090,
+          "stop" : 1661587319090,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4212d8c4db35f11f",
+          "name" : "status : 202",
+          "source" : "4212d8c4db35f11f.attach",
+          "type" : "text/plain",
+          "size" : 6
+        }, {
+          "uid" : "f9c0867cc5748d29",
+          "name" : "res_time : 0.072576 s",
+          "source" : "f9c0867cc5748d29.attach",
+          "type" : "text/plain",
+          "size" : 8
+        }, {
+          "uid" : "9c1cb9afdd0ee530",
+          "name" : "res_body : {'error_code': 'AuthManager.OperationDenied.UserLoginNameOrPasswordWrong', 'description': '用户登录名或密码错误', 'error_link': 'error_link', 'solution': 'solution', 'error_details': 'error_details', 'needMsg': False}",
+          "source" : "9c1cb9afdd0ee530.attach",
+          "type" : "text/plain",
+          "size" : 8
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assertMsg",
+        "time" : {
+          "start" : 1661587319090,
+          "stop" : 1661587319090,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assertInfo",
+        "time" : {
+          "start" : 1661587319090,
+          "stop" : 1661587319090,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "38878bb32f14af58",
+          "name" : "verify : {'uq': ['STATUS', 503]}",
+          "source" : "38878bb32f14af58.attach",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 8,
+      "attachmentsCount" : 15,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "interface_5",
+      "time" : {
+        "start" : 1661587319091,
+        "stop" : 1661587319098,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "测试用例描述 : 模拟 上传图片接口 上传个性化配置中 'logo + 文字'",
+        "time" : {
+          "start" : 1661587319091,
+          "stop" : 1661587319091,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "20bcdbbb67c47126",
+          "name" : "Description",
+          "source" : "20bcdbbb67c47126.attach",
+          "type" : "text/plain",
+          "size" : 11
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "baseUrl",
+        "time" : {
+          "start" : 1661587319091,
+          "stop" : 1661587319092,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c3af3668b71d65c7",
+          "name" : "url : http://10.4.117.56:80/manager/oem/image/",
+          "source" : "c3af3668b71d65c7.attach",
+          "type" : "text/plain",
+          "size" : 7
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "method",
+        "time" : {
+          "start" : 1661587319092,
+          "stop" : 1661587319092,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8da2a79cac344abc",
+          "name" : "method : post",
+          "source" : "8da2a79cac344abc.attach",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "headers",
+        "time" : {
+          "start" : 1661587319092,
+          "stop" : 1661587319095,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c69c56c0803d765e",
+          "name" : "Accept : application/json, text/plain, */*",
+          "source" : "c69c56c0803d765e.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "4228a5c7c901c9e0",
+          "name" : "Accept-Encoding : gzip, deflate",
+          "source" : "4228a5c7c901c9e0.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "4492c447c1565f00",
+          "name" : "Accept-Language : zh-CN,zh;q=0.9",
+          "source" : "4492c447c1565f00.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "b0ecf33305928da4",
+          "name" : "Connection : keep-alive",
+          "source" : "b0ecf33305928da4.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "8fdbff2996b621c6",
+          "name" : "Content-Type : multipart/form-data; boundary=-----------------------------22607217792235828267378359705",
+          "source" : "8fdbff2996b621c6.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "51f7e558798f2c5a",
+          "name" : "user : f5a08cb056c539d76f373bbc94458e39",
+          "source" : "51f7e558798f2c5a.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "237c3607669a9521",
+          "name" : "token : fde85f5a2644f97234a83ad5f5246acc676efee3a2d92e853a3454aee6f3a0e3",
+          "source" : "237c3607669a9521.attach",
+          "type" : "text/plain",
+          "size" : 7
+        }, {
+          "uid" : "853e17e40ae9becf",
+          "name" : "jwt-token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGVybWlzc2lvbiI6eyJJRF9NQUlOUEFHRSI6dHJ1ZSwiSURfU0VBUkNIIjp0cnVlLCJJRF9TRUFSQ0hfQ1JFQVRFIjp0cnVlLCJJRF9TRUFSQ0hfU0FWRSI6dHJ1ZSwiSURfU0VBUkNIX09QRU4iOnRydWUsIklEX1NFQVJDSF9TSEFSRSI6dHJ1ZSwiSURfU0VBUkNIX0RPV05MT0FEIjp0cnVlLCJJRF9SRUxBVElPTlNISVBfR1JBUEgiOnRydWUsIklEX1ZJU1VBTCI6dHJ1ZSwiSURfVklTVUFMX0NSRUFURSI6dHJ1ZSwiSURfVklTVUFMX1NBVkUiOnRydWUsIklEX1ZJU1VBTF9PUEVOIjp0cnVlLCJJRF9WSVNVQUxfU0hBUkUiOnRydWUsIklEX0RBVEVTT1VSQ0UiOnRydWUsIklEX0RBVEFTT1VSQ0VfSU5QVVQiOnRydWUsIklEX0RBVEVTT1VSQ0VfVVBMT0FEIjp0cnVlLCJJRF9EQVRFU09VUkNFX0NPTExFQ1RJT04iOnRydWUsIklEX0RBVEVTT1VSQ0VfQUdFTlRfTUFOQUdFUiI6dHJ1ZSwiSURfREFURVNPVVJDRV9EQkNPTk5FQ1QiOnRydWUsIklEX0RBVEVTT1VSQ0VfSU5ERVhfTUFOQUdFIjp0cnVlLCJJRF9EQVRFU09VUkNFX09QRU5fTE9HIjp0cnVlLCJJRF9EQVRFU09VUkNFX0RBVEFfU1RSRUFNIjp0cnVlLCJJRF9EQVRFU09VUkNFX0FSQ0hJVkUiOnRydWUsIklEX0RBVEVTT1VSQ0VfQUdFTlRfQVVESVQiOnRydWUsIklEX0FMRVJUIjp0cnVlLCJJRF9BTEVSVF9SRUNPUkQiOnRydWUsIklEX0FMRVJUX1JFQ09SRF9DTEVBUiI6dHJ1ZSwiSURfQUxFUlRfUkVDT1JEX0VYUE9SVCI6dHJ1ZSwiSURfQUxFUlRfU1RSQVRFR1kiOnRydWUsIklEX0FMRVJUX1NUUkFURUdZX0NSRUFURSI6dHJ1ZSwiSURfQUxFUlRfU1RSQVRFR1lfVVBEQVRFIjp0cnVlLCJJRF9BTEVSVF9TVFJBVEVHWV9ERUxFVEUiOnRydWUsIklEX0FMRVJUX1NUUkFURUdZX0xJU1QiOnRydWUsIklEX0RBU0hCT0FSRCI6dHJ1ZSwiSURfREFTSEJPQVJEX0NSRUFURSI6dHJ1ZSwiSURfREFTSEJPQVJEX1NBVkUiOnRydWUsIklEX0RBU0hCT0FSRF9PUEVOIjp0cnVlLCJJRF9EQVNIQk9BUkRfU0hBUkUiOnRydWUsIklEX0RBU0hCT0FSRF9BRERfVklTVUFMIjp0cnVlLCJJRF9EQklPIjp0cnVlLCJJRF9EQklPX0JVU0lORVNTX1BBTk9SQU1BIjp0cnVlLCJJRF9EQklPX1NFUlZJQ0VfQU5BTFlaRVIiOnRydWUsIklEX0RCSU9fQUxFUlRTX0NIRUNLIjp0cnVlLCJJRF9EQklPX0tQSV9BTkFMWVpFUiI6dHJ1ZSwiSURfREJJT19DT05GSUdVUkFUSU9OIjp0cnVlLCJJRF9EQklPX0NPTkZJR1VSQVRJT05fU0VSVklDRSI6dHJ1ZSwiSURfREJJT19DT05GSUdVUkFUSU9OX0VOVElUWSI6dHJ1ZSwiSURfREJJT19DT05GSUdVUkFUSU9OX0FMRVJUIjp0cnVlLCJJRF9NTCI6dHJ1ZSwiSURfTUxfQU5PTUFMWV9ERVRFQ1RJT04iOnRydWUsIklEX01MX0FOT01BTFlfREVURUNUSU9OX0NSRUFURSI6dHJ1ZSwiSURfTUxfQU5PTUFMWV9ERVRFQ1RJT05fVVBEQVRFIjp0cnVlLCJJRF9NTF9BTk9NQUxZX0RFVEVDVElPTl9ERUxFVEUiOnRydWUsIklEX01MX1RJTUVfU0VSSUVTX0ZPUkVDQVNUIjp0cnVlLCJJRF9NTF9USU1FX1NFUklFU19GT1JFQ0FTVF9DUkVBVEUiOnRydWUsIklEX01MX1RJTUVfU0VSSUVTX0ZPUkVDQVNUX1VQREFURSI6dHJ1ZSwiSURfTUxfVElNRV9TRVJJRVNfRk9SRUNBU1RfREVMRVRFIjp0cnVlLCJJRF9NTF9ST09UX0NBVVNFX0FOQUxZU0lTIjp0cnVlLCJJRF9NTF9ST09UX0NBVVNFX0FOQUxZU0lTX0NSRUFURSI6dHJ1ZSwiSURfTUxfUk9PVF9DQVVTRV9BTkFMWVNJU19VUERBVEUiOnRydWUsIklEX01MX1JPT1RfQ0FVU0VfQU5BTFlTSVNfREVMRVRFIjp0cnVlLCJJRF9EQVRBX01BTkFHRVIiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUCI6dHJ1ZSwiSURfREFUQV9NQU5BR0VSX0xPR0dST1VQX0VYUE9SVF9BTEwiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUF9JTVBPUlQiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUF9DUkVBVEUiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUF9VUERBVEUiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUF9ERUxFVEUiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9MT0dHUk9VUF9FWFBPUlQiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9UQUdTIjp0cnVlLCJJRF9NT05JVE9SX1BBR0UiOnRydWUsIklEX0lOU1BFQ1RJT04iOnRydWUsIklEX0lOU1BFQ1RJT05fSU5TUEVDVElPTlMiOnRydWUsIklEX0lOU1BFQ1RJT05fSU5TUEVDVElPTlNfQUREIjp0cnVlLCJJRF9JTlNQRUNUSU9OX0lOU1BFQ1RJT05TX0VESVQiOnRydWUsIklEX0lOU1BFQ1RJT05fSU5TUEVDVElPTlNfREVMRVRFIjp0cnVlLCJJRF9JTlNQRUNUSU9OX0lOU1BFQ1RJT05TX0RFTEVURV9TSUdOIjp0cnVlLCJJRF9JTlNQRUNUSU9OX0hJU1RPUlkiOnRydWUsIklEX0lOU1BFQ1RJT05fSElTVE9SWV9FWFBPUlQiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9PQkpFQ1QiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9PQkpFQ1RfRVhQT1JUX0FMTCI6dHJ1ZSwiSURfREFUQV9NQU5BR0VSX09CSkVDVF9JTVBPUlQiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9PQkpFQ1RfUlVMRSI6dHJ1ZSwiSURfREFUQV9NQU5BR0VSX09CSkVDVF9EQVNIQk9BUkQiOnRydWUsIklEX0RBVEFfTUFOQUdFUl9PQkpFQ1RfU0VBUkNIIjp0cnVlLCJJRF9EQVRBX01BTkFHRVJfT0JKRUNUX1ZJU1VBTCI6dHJ1ZSwiSURfREFUQV9NQU5BR0VSX09CSkVDVF9BTEVSVCI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVIiOnRydWUsIklEX1NZU1RFTV9NQU5BR0VSX1BFUk1JU1NJT04iOnRydWUsIklEX1NZU1RFTV9NQU5BR0VSX1BFUk1JU1NJT05fVVNFUiI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfUEVSTUlTU0lPTl9ST0xFIjp0cnVlLCJJRF9TWVNURU1fTUFOQUdFUl9QRVJNSVNTSU9OX01PRFVMRSI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfUEVSTUlTU0lPTl9PUEVOQVBJIjp0cnVlLCJJRF9TWVNURU1fTUFOQUdFUl9BVURJVF9MT0ciOnRydWUsIklEX1NZU1RFTV9NQU5BR0VSX1NZU1RFTSI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU1lTVEVNX0xPR0dJTkciOnRydWUsIklEX1NZU1RFTV9NQU5BR0VSX1NZU1RFTV9TRUNVUklUWSI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU1lTVEVNX09FTSI6dHJ1ZSwiSURfU1lTVEVNX0FVVEhfTUFOQUdFUiI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU1lTVEVNX1dISVRFTElTVCI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU1lTVEVNX1NFQVJDSCI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU0NIRURVTEVfVEFTSyI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU0NIRURVTEVfVEFTS19DUkVBVEUiOnRydWUsIklEX1NZU1RFTV9NQU5BR0VSX1NDSEVEVUxFX1RBU0tfVVBEQVRFIjp0cnVlLCJJRF9TWVNURU1fTUFOQUdFUl9TQ0hFRFVMRV9UQVNLX0RFTEVURSI6dHJ1ZSwiSURfU1lTVEVNX01BTkFHRVJfU0NIRURVTEVfVEFTS19MSVNUIjp0cnVlLCJJRF9TWVNURU1fTUFOQUdFUl9TWVNURU1fTElDRU5TRSI6dHJ1ZSwiSURfQVNfQklHU0NSRUVOIjp0cnVlLCJJRF9DT1JSRUxBVElPTl9TRUFSQ0giOnRydWV9LCJleHAiOjE2NjE5NDczMTYuMTI5ODk5M30.4qSsFlaS92PEMnY9f66rUf5UT9207sPa6AOPOVeymlE",
+          "source" : "853e17e40ae9becf.attach",
+          "type" : "text/plain",
+          "size" : 7
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 8,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "body",
+        "time" : {
+          "start" : 1661587319095,
+          "stop" : 1661587319096,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b717253b2ad3b1e1",
+          "name" : "body : <MultipartEncoder: {'logotext': ('333.png', <_io.BufferedReader name='D:\\\\333.png'>, 'image/png')}>",
+          "source" : "b717253b2ad3b1e1.attach",
+          "type" : "text/plain",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "response",
+        "time" : {
+          "start" : 1661587319096,
+          "stop" : 1661587319097,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a911d0433d2b3c1d",
+          "name" : "status : 401",
+          "source" : "a911d0433d2b3c1d.attach",
+          "type" : "text/plain",
+          "size" : 6
+        }, {
+          "uid" : "ae58bf3abfc6ee2f",
+          "name" : "res_time : 0.027211 s",
+          "source" : "ae58bf3abfc6ee2f.attach",
+          "type" : "text/plain",
+          "size" : 8
+        }, {
+          "uid" : "1ed85f3220ac9f82",
+          "name" : "res_body : 返回内容为空",
+          "source" : "1ed85f3220ac9f82.attach",
+          "type" : "text/plain",
+          "size" : 8
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assertMsg",
+        "time" : {
+          "start" : 1661587319097,
+          "stop" : 1661587319098,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "84491cbcbf593ade",
+          "name" : "assertText : {'eq': ['STATUS', 200]} 中 实际值: 401; 期望值: 200",
+          "source" : "84491cbcbf593ade.attach",
+          "type" : "text/plain",
+          "size" : 9
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assertInfo",
+        "time" : {
+          "start" : 1661587319098,
+          "stop" : 1661587319098,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "861e6b6da3f6c743",
+          "name" : "verify : {'eq': ['STATUS', 200]}",
+          "source" : "861e6b6da3f6c743.attach",
+          "type" : "text/plain",
+          "size" : 6
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 8,
+      "attachmentsCount" : 17,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 49,
+    "attachmentsCount" : 81,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "default_Login"
+  }, {
+    "name" : "feature",
+    "value" : "Auth_Manager"
+  }, {
+    "name" : "tag",
+    "value" : "all"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.Auth_Manager.requests.default_Login"
+  }, {
+    "name" : "suite",
+    "value" : "test_default_Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDefaultLogin"
+  }, {
+    "name" : "host",
+    "value" : "TestDeskV2-043"
+  }, {
+    "name" : "thread",
+    "value" : "64320-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Auth_Manager.requests.default_Login.test_default_Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "all", "smoke" ]
+  },
+  "source" : "9e2de0cde3463a57.json",
+  "parameterValues" : [ ]
+}

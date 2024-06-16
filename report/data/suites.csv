@@ -1,0 +1,3 @@
+"Status","Name","Duration in ms","Description"
+"passed","testcase.Auth_Manager.requests.default_Login2.test_default_Login2.TestDefaultLogin2#test_admin_login","43",""
+"failed","testcase.Auth_Manager.requests.default_Login.test_default_Login.TestDefaultLogin#test_admin_login","41",""

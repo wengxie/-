@@ -1,0 +1,87 @@
+Test:
+  server: Auth-Manager
+  execute: [interface_1, interface_2, interface_3, interface_4, interface_5]
+  describe: 模拟用户登录场景
+
+  interface_1:
+    Description: 模拟admin用户登录
+    baseUrl: /manager/auth/defaultlogin
+    method: post
+    headers:
+    sleep: 2
+    req_body: '$adminLogin$'
+    verify:
+      - eq: ['STATUS', 200]
+
+  interface_2:
+    Description: 模拟 URL 参数依赖
+    baseUrl: /manager/auth/defaultlogin
+    method: post
+    headers:
+    rely:
+      relation_1:
+        baseUrl:
+          interface_1: success
+      relation_2:
+        body:
+          interface_1: userId
+          key: loginName
+          type: str
+    req_body: '$adminLogin2$'
+    verify:
+      - uq: [userId, 11111111]
+
+  interface_3:
+    Description: 模拟 2 用户登录
+    baseUrl: /manager/auth/defaultlogin
+    method: post
+    headers:
+    sleep: 2
+    preconfig:
+      file: 'add.py'
+      setup: 'add_num(1,2)'
+    req_body:
+      loginName: admin
+      password: aaccdcfaijfjmngdfrcijfmwnjgrcczdfjwimnafjgraccdcfaijfjmngdfrcwijfmwnjgrcczdfjwimnafjgraccdcfaij44mnfjgrdwf2c84i8wj448fm2nj488gr448zc2cd88DfjwIiDmMnIMDNM8IfNMjrNgTTTUTUUIzwN4DU2Nzg=
+    teardown:
+      file: 'reduce.py'
+      setup: 'reduce_num(1,2)'
+    verify:
+      - uq: ['STATUS', 503]
+      - eq: ['RESPONSE', success]
+
+  interface_4:
+    Description: 模拟 3 用户登录
+    baseUrl: /manager/auth/defaultlogin
+    method: post
+    headers:
+    req_body: '$adminLogin3$'
+    verify:
+      - uq: ['STATUS', 503]
+
+  interface_5:
+    Description: 模拟 上传图片接口 上传个性化配置中 'logo + 文字'
+    baseUrl: /manager/oem/image/
+    method: post
+    headers:
+      jwt-token: $relation_3$
+    rely:
+      relation_3:
+        headers:
+          interface_3: jwtToken
+          key: jwt-token
+    req_body: '$uploadLogotext$'
+    req_file:
+      key: logotext
+      file_path: r'D:\333.png'
+      file_Mime: image/png
+    verify:
+      - eq: ['STATUS', 502]
+
+
+
+
+
+
+
+

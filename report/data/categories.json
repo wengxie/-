@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: <interface_5>接口断言失败",
+      "children" : [ {
+        "name" : "模拟用户登录场景",
+        "uid" : "4d8996de65e0cdb9",
+        "parentUid" : "694fa7caa7e286a434e81e0346f3c1dd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662119986613,
+          "stop" : 1662119986654,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "694fa7caa7e286a434e81e0346f3c1dd"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

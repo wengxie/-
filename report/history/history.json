@@ -1,0 +1,41 @@
+{
+  "3214de68b65dde726b38919c4f09ced3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "72b7ec1e27997030",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662119986738,
+        "stop" : 1662119986781,
+        "duration" : 43
+      }
+    } ]
+  },
+  "5a97fc81b08b8cc8ca393e0fcfd05c78" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d8996de65e0cdb9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: <interface_5>接口断言失败",
+      "time" : {
+        "start" : 1662119986613,
+        "stop" : 1662119986654,
+        "duration" : 41
+      }
+    } ]
+  }
+}

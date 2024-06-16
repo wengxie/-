@@ -1,0 +1,21 @@
+[ {
+  "uid" : "72b7ec1e27997030",
+  "name" : "模拟用户登录场景 2",
+  "time" : {
+    "start" : 1662119986738,
+    "stop" : 1662119986781,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d8996de65e0cdb9",
+  "name" : "模拟用户登录场景",
+  "time" : {
+    "start" : 1662119986613,
+    "stop" : 1662119986654,
+    "duration" : 41
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
