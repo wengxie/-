@@ -53,12 +53,14 @@ README.md --- readme文件
   
 # 运行流程
 1. 下载对应文件【Weng_Pytest_Demo】到本地，并打开
-2. 在下方Terminal中执行 pip install -r requirement.txt --use-deprecated=legacy-resolver 导入依赖包
+2. python的运行环境是python3.6版本的
+3. 在下方Terminal中执行 pip install -r requirement.txt --use-deprecated=legacy-resolver 导入依赖包
    1. 其中  --use-deprecated=legacy-resolver 作用在于防止版本冲突导致的死循环
-3. testcase 目录下，按照要求添加用例，注意目录名、文件名、（用例+YAML+json要对应）
-4. 执行main.py
-5. 到report目录下，通过index.html打开Allure查看各接口运行结果
-6. 我估摸着前几次不熟悉，大概率会报接口错误，调好就成
+   2. 如果按照后遇到依赖包版本冲突的，就修改为对应不冲突的版本即可
+4. testcase 目录下，按照要求添加用例，注意目录名、文件名、（用例+YAML+json要对应）
+5. 执行main.py
+6. 到report目录下，通过index.html打开Allure查看各接口运行结果
+7. 我估摸着前几次不熟悉，大概率会报接口错误，调好就成
   
 后面如果有人在看这个框架学习，写的不好的地方，或者注释没写好的地方，多多包含，我也是第一次上手。  
 希望共勉，一起进步！
